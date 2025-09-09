@@ -1,0 +1,16 @@
+{
+  "name": "phone-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "fastify": "^4",
+    "@fastify/formbody": "^7",
+    "@fastify/websocket": "^8",
+    "dotenv": "^17",
+    "@openai/agents": "latest",
+    "@openai/agents-realtime": "latest",
+    "@openai/agents-extensions": "latest"
+  }
+}
+
